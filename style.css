@@ -122,7 +122,8 @@
 }
 .info{
     align-items: center;
-    padding-top: 90px;
+    padding-top: 180px;
+    padding-bottom: 0;
 }
 .info-section h3{
     margin-bottom: 10px;
@@ -179,6 +180,7 @@
 .best-offer-section .column1 img{
     width: 364.844px;
     height: 364.844px;
+    padding-top: 48px;
     
 }
 .circle{
@@ -211,6 +213,7 @@
     height: 140px;
 }
 /* holiday sale */
+
 .holiday-sale-section{
   
     text-align: center;
@@ -238,9 +241,105 @@
 }
 .holiday-sale-section p{
     width: 1068px;
+    margin: 0 auto;
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
+}
+/* portfolio section */
+
+.portfolio-section .portfolio-text h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.portfolio-section .portfolio-text h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.portfolio-section .portfolio-text p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.portfolio-text{
+    margin-bottom: 35px;
+}
+
+.portfolio-img .img-section img{
+    width: 370px;
+    height: 218px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+/* .img-section img{
+    display: flex;
+
+} */
+/* subscribe section */
+.subscribe-section{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    align-items: center;
+}
+.subscribe-title{
+    /* padding: 80px 0; */
+    padding-top: 110px;
+}
+.subscribe-section img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+.subscribe-section h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.subscribe-section p{
+    width: 896px;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.subscribe-section .input-form{
+    padding: 12px 0 12px 30px;
+    /* width: 30%; */
+    width: 370px;
+    height: 36px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.subscribe-section button{
+    padding: 12px;
+    width: 170px;
+    height: 59px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
 }
